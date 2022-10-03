@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import ThekFriends from './FeaturedProjects/ThekFriends'
 import ToDo from './FeaturedProjects/ToDo'
+import Labyrinth from './FeaturedProjects/Labyrinth'
 
 const Projects = styled.section`
 background-color:white;
@@ -29,6 +30,7 @@ const FeaturedProjects = () => {
       <ProjectContainer>
         <ThekFriends />
         <ToDo />
+        <Labyrinth />
       </ProjectContainer>
     </Projects>
   );
