@@ -3,6 +3,9 @@ import styled from 'styled-components';
 
 import Authentication from './OtherProjects/Authentication'
 import HappyThoughts from './OtherProjects/HappyThoughts'
+import NobelPrize from './OtherProjects/NobelPrize'
+import ExpressNobelPrize from './OtherProjects/ExpressNobelPrize'
+import HarryPotterQuiz from './OtherProjects/HarryPotterQuiz'
 
 const Projects = styled.section`
 background-color:white;
@@ -29,6 +32,9 @@ const OtherProjects = () => {
       <ProjectContainer>
         <Authentication />
         <HappyThoughts />
+        <NobelPrize />
+        <ExpressNobelPrize />
+        <HarryPotterQuiz />
       </ProjectContainer>
     </Projects>
   );
