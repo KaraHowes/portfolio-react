@@ -1,26 +1,26 @@
 import React from 'react'
 import { FeaturedCard, MethodList, Methods, NetlifyLink, CardProjectImg, ProjectTitle, ProjectParagraph, GithubLink } from '../generalstyling'
 
-const Labyrinth = () => {
+const GitHubTracker = () => {
   return (
     <FeaturedCard>
       <NetlifyLink
-        href="https://lena-kara-labyrinth.netlify.app/"
-        aria-label="link to labyrinth project"
+        href="https://kara-howes-tracker.netlify.app/"
+        aria-label="link to github tracker project"
         target="_blank"
         rel="noopener noreferrer">
         <CardProjectImg
-          src="./assets/kara-lab2 copy.png"
-          alt="Labyrinth app displayed on macbook" />
-        <ProjectTitle> Labyrinth Game</ProjectTitle>
+          src="./assets/github-mockup.png"
+          alt="gitHub tracker app displayed on macbook" />
+        <ProjectTitle> GitHub Profile Tracker</ProjectTitle>
       </NetlifyLink>
       <ProjectParagraph>
-      This pair-project involved building a Labyrinth game app using React and Redux,
-      fetching data from an API.
+      This project involved using APIs to fetch data from
+      the GitHub API and involved inputting into the innerHTML.
       </ProjectParagraph>
       <GithubLink
-        href="https://github.com/KaraHowes/project-labyrinth"
-        aria-label="Link to labyrinth project on github"
+        href="https://github.com/KaraHowes/project-github-tracker"
+        aria-label="Link to gitbuh tracker on github"
         target="_blank"
         rel="noopener noreferrer">
         <i className="fab fa-github" />
@@ -39,4 +39,4 @@ const Labyrinth = () => {
     </FeaturedCard>
   );
 };
-export default Labyrinth;
+export default GitHubTracker;

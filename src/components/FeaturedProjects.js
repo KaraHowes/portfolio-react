@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import ThekFriends from './FeaturedProjects/ThekFriends'
 import ToDo from './FeaturedProjects/ToDo'
 import Labyrinth from './FeaturedProjects/Labyrinth'
+import GitHubTracker from './FeaturedProjects/GitHubTracker'
 
 const Projects = styled.section`
 background-color:white;
@@ -31,6 +32,7 @@ const FeaturedProjects = () => {
         <ThekFriends />
         <ToDo />
         <Labyrinth />
+        <GitHubTracker />
       </ProjectContainer>
     </Projects>
   );
