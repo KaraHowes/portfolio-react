@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 
+import OtherProjects from 'components/OtherProjects';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Bio from './components/Bio';
@@ -21,6 +22,7 @@ export const App = () => {
         <Bio />
         <TechSkills />
         <FeaturedProjects />
+        <OtherProjects />
         <AllSkills />
         <SocialContact />
       </ContentContainer>

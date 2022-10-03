@@ -5,7 +5,7 @@ const Todo = () => {
   return (
     <FeaturedCard>
       <NetlifyLink
-        href="https://https://kara-howes-todos.netlify.app-friends.netlify.app/"
+        href="https://kara-howes-todos.netlify.app"
         aria-label="link to to-do project"
         target="_blank"
         rel="noopener noreferrer">

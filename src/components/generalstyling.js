@@ -46,7 +46,8 @@ export const CardProjectImg = styled.img`
 width: 100%;`;
 
 export const ProjectTitle = styled.h4`
-margin: 10px 0;`
+margin: 10px 0;
+font-size: 1.75rem;`
 
 export const ProjectParagraph = styled.p`
 margin: 10px 0;
