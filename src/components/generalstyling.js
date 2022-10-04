@@ -60,3 +60,15 @@ margin: 0 10px;
 font-family: "Font Awesome 5 Brands";
 font-size: 3rem;
 color: black;`
+
+export const ProjectContainer = styled.article`
+display: flex;
+  flex-direction: column;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  width: 90%;
+  @media (min-width: 950px){
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  }`
