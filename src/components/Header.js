@@ -34,7 +34,7 @@ const ProfileContainer = styled.section`
 `;
 const NavContainer = styled.nav`
   position: absolute;
-  height: 100%;
+  height: 80%;
   right: 0;
   display: inline-flex;
 `;
